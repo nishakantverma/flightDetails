@@ -1,0 +1,199 @@
+{
+    "data": {
+      "flightOffers": [
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719048300367,
+          "connections": [],
+          "departureDate": 1719043200367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1231",
+          "id": "1719043200367_KL1231",
+          "lowestPrice": {
+            "amount": 243.95,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719051900367,
+          "connections": [],
+          "departureDate": 1719046800367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1232",
+          "id": "1719046800367_KL1232",
+          "lowestPrice": {
+            "amount": 202.43,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719055500367,
+          "connections": [],
+          "departureDate": 1719050400367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1233",
+          "id": "1719050400367_KL1233",
+          "lowestPrice": {
+            "amount": 121.11,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719059100367,
+          "connections": [],
+          "departureDate": 1719054000367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1234",
+          "id": "1719054000367_KL1234",
+          "lowestPrice": {
+            "amount": 169.9,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719062700367,
+          "connections": [],
+          "departureDate": 1719057600367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1235",
+          "id": "1719057600367_KL1235",
+          "lowestPrice": {
+            "amount": 141.32,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719066300367,
+          "connections": [],
+          "departureDate": 1719061200367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1236",
+          "id": "1719061200367_KL1236",
+          "lowestPrice": {
+            "amount": 259.34,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719069900367,
+          "connections": [
+            {
+              "airportCode": "CDG",
+              "airportLabel": "Paris, Charles de Gaulle",
+              "time": 65
+            }
+          ],
+          "departureDate": 1719064800367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1237",
+          "id": "1719064800367_KL1237",
+          "lowestPrice": {
+            "amount": 162.51,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719073500367,
+          "connections": [],
+          "departureDate": 1719068400367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1238",
+          "id": "1719068400367_KL1238",
+          "lowestPrice": {
+            "amount": 104.15,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719077100367,
+          "connections": [
+            {
+              "airportCode": "CDG",
+              "airportLabel": "Paris, Charles de Gaulle",
+              "time": 65
+            }
+          ],
+          "departureDate": 1719072000367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1239",
+          "id": "1719072000367_KL1239",
+          "lowestPrice": {
+            "amount": 228.87,
+            "currency": "USD"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        },
+        {
+          "airline": "KLM",
+          "arrivalDate": 1719080700367,
+          "connections": [],
+          "departureDate": 1719075600367,
+          "destinationCode": "MAD",
+          "destinationLabel": "Madrid, Adolfo Suárez Madrid-Barajas",
+          "flightClass": "Economy",
+          "flightDuration": 85,
+          "flightNumber": "KL1240",
+          "id": "1719075600367_KL1240",
+          "lowestPrice": {
+            "amount": 201.29,
+            "currency": "EUR"
+          },
+          "originCode": "AMS",
+          "originLabel": "Amsterdam, Schiphol"
+        }
+      ]
+    }
+  }
+  

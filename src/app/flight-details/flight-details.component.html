@@ -1,0 +1,23 @@
+<div class="container">
+    <!-- <h2>This is a flight details page</h2> -->
+    <h2>{{flightsData[0]?.originCode}} to {{flightsData[0]?.destinationCode}} on {{ flightsData[0]?.arrivalDate | date : 'EEEE d MMMM' }}</h2>
+
+    <div class="flight" *ngFor="let flight of flightsData$ | async">
+        <div class="flight-info">
+            <div class="column1">
+                <p><strong> {{getConnectingFlights(flight)}}</strong></p> 
+                <p>{{ flight?.departureDate | date : 'h:mm' }} - {{ flight?.arrivalDate | date : 'h:mm' }} ( {{ calculateDuration(flight)}} )</p>
+                <p>{{ flight?.flightNumber }}</p>
+              </div>
+              <div class="column2">
+                <p>Operated by {{ flight?.airline }}</p>
+              </div>
+              <div class="column3">
+                  <p>Duration {{flight?.flightDuration! / 60 | number: '1.2-2'}}</p>
+                </div>
+              <div class="price">
+                <p>{{ flight?.lowestPrice?.amount }} {{ flight?.lowestPrice?.currency }}</p>
+              </div>
+        </div>
+    </div>
+</div>
